@@ -12,6 +12,7 @@
 		D5DA34F919822BC800CBDD07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DA34F719822BC800CBDD07 /* Main.storyboard */; };
 		D5DA34FB19822BC800CBDD07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DA34FA19822BC800CBDD07 /* Images.xcassets */; };
 		D5DA350719822BC800CBDD07 /* TumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA350619822BC800CBDD07 /* TumblrTests.swift */; };
+		D5DA351319822D2A00CBDD07 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA351219822D2A00CBDD07 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		D5DA350019822BC800CBDD07 /* TumblrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DA350519822BC800CBDD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5DA350619822BC800CBDD07 /* TumblrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblrTests.swift; sourceTree = "<group>"; };
+		D5DA351219822D2A00CBDD07 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				D5DA34F719822BC800CBDD07 /* Main.storyboard */,
 				D5DA34FA19822BC800CBDD07 /* Images.xcassets */,
 				D5DA34F119822BC800CBDD07 /* Supporting Files */,
+				D5DA351219822D2A00CBDD07 /* TabBarViewController.swift */,
 			);
 			path = Tumblr;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5DA34F619822BC800CBDD07 /* ViewController.swift in Sources */,
+				D5DA351319822D2A00CBDD07 /* TabBarViewController.swift in Sources */,
 				D5DA34F419822BC800CBDD07 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
