@@ -8,11 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-                            
+class TabBarViewController: UIViewController {
+    
+    // MARK: Outlets
+    
+    @IBOutlet weak var contentView: UIView!
+    
+    // MARK: Properties
+    var homeViewController = HomeViewController()
+    var searchViewController = SearchViewController()
+    var composeViewController = ComposeViewController()
+    var accountViewController = AccountViewController()
+    var trendingViewController = TrendingViewController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        contentView.addSubview(homeViewController.view)
+        
     }
 
     override func didReceiveMemoryWarning() {

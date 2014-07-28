@@ -1,5 +1,5 @@
 //
-//  TabBarViewController.swift
+//  HomeViewController.swift
 //  Tumblr
 //
 //  Created by Michael Ellison on 7/24/14.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabBarViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
