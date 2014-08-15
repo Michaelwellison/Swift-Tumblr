@@ -14,27 +14,13 @@ class TabBarViewController: UIViewController {
     
     @IBOutlet weak var contentView: UIView!
     
+    
+    
     // MARK: Properties
-    var homeViewController : HomeViewController?
-    var searchViewController = SearchViewController()
-    var composeViewController = ComposeViewController()
-    var accountViewController = AccountViewController()
-    var trendingViewController = TrendingViewController()
-    
-    init(nibName: String!,
-        bundle nibBundle: NSBundle!)
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        configureHomeViewController()
-        
-    }
-    
-    func configureHomeViewController() {
-        homeViewController = HomeViewController(nibName: "HomeViewController", bundle: NSBundle.mainBundle())
-        contentView.addSubview(homeViewController!.view)
         
     }
 
